@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Income.FragIncome">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/add_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/plus"
+        android:elevation="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="bottom|right"/>
+
+    <LinearLayout
+        android:id="@+id/blank_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="56dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/blank"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nothing Added Yet"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:textSize="14sp"
+            android:padding="16dp"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

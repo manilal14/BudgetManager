@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BudgetManager</string>
+    <string name="expence">Expence</string>
+    <string name="income">Income</string>
+    <string name="monthly_budget">Monthly Budget</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+    <string name="Rs">₹</string>
+</resources>
